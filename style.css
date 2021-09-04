@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+ body{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 95%;
+	background-color: #202733;
+	background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm251-aum-14.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=3eba6ced8103090a77369534e9b3cea1");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.btn{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px;
+	
+
+}
+.num
+{
+	color: #11FFEF;
+	text-align: center;
+	font-size: 10em;
+}
+.count,.reset{
+	margin: 0px 50px 0px 50px;
+	text-align: center;
+	padding: 15px;
+    border: 2px solid #46A29E;
+    background-color:#1C012E;
+	color: #C4C6C8;
+	font-size: 2.5em;
+	height: 110px;
+	width: 200px;
+	box-shadow: 0 8px 16px 0 rgb(17, 255, 239), 0 6px 20px 0 rgb(17, 255, 239);
+	
+}
+.count:hover,.reset:hover{
+    border: 2px solid #66FCF0 ;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgb(70, 162, 158), 0 6px 20px 0 rgb(70, 162, 158);
+
+	
+}
+
